@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 14px;
+  font-family: 'Quicksand', sans-serif;
+}
+*:focus {
+  outline: none;
+}
+*::placeholder {
+  font-size: 12px;
+}
+*:focus::placeholder {
+  color: transparent;
+}
+body {
+  background: #ede9e6;
+}
+.wrapper {
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+.form {
+  width: 360px;
+  display: flex;
+  flex-direction: column;
+  margin: 60px auto;
+  background-color: #ede9e6;
+}
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+.flex-row {
+  display: inline-flex;
+  flex-direction: row;
+  width: 50%;
+  justify-content: space-between;
+}
+.flex-space {
+  display: flex;
+  justify-content: space-between;
+}
+.radio-button {
+  width: 16px;
+  height: 16px;
+  margin: 3px 10px;
+}
+.checkbox {
+  width: 16px;
+  height: 16px;
+  margin: 3px 10px;
+}
+.fifty {
+  width: 50%;
+}
+.textarea {
+  height: 60px;
+  resize: none;
+  padding: 10px;
+}
+.margin-btm {
+  margin-bottom: 4px;
+}
+.input-text {
+  height: 30px;
+  padding: 10px;
+}
+.heading {
+  font-size: 18px;
+  font-weight: 460;
+  line-height: 1.6;
+}
+.error-message {
+  color: red;
+}
+.red {
+  border: 1px solid red;
+}
+.button {
+  display: inline-block;
+  background-color: #fff;
+  cursor: pointer;
+  padding: 10px 28px;
+  border: 2px solid #ff416c;
+  text-transform: uppercase;
+  font-weight: 400;
+  color: #ff416c;
+  text-align: center;
+  transition: all 0.15s;
+}
+.button:hover {
+  transform: scale(1.02);
+}
